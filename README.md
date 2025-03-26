@@ -5,5 +5,5 @@ This repo stores the test result of LLM (temporarily GPT-4o) on VGEN. The test i
 3. **Hint Level**: There are multiple prompt options of various clarity in a testcase. I roughly selected the most suitable one. Namely the spec should be clear and concise for me to understand each I/O, but no extra information on the implementation. (hint level category TBD)
 ## Takeaways
 - The LLM is able to understand the test cases and generate the expected output as these test cases are simple and straightforward for any trained EE student.
-- The LLM might [generate redundant logic](https://github.com/yt-tony-liu/VGEN_Testing/vgen_intermediate_4.md#comment) in the code. EDA tools could easily optimize it, but it could be a problem for larger designs.
+- The LLM might [generate redundant logic](https://github.com/yt-tony-liu/VGEN_Testing/vgen/vgen_intermediate_4.md#comment) in the code. EDA tools could easily optimize it, but it could be a problem for larger designs.
 - Some syntax errors i.e. unwanted latches. 
