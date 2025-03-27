@@ -1,7 +1,7 @@
 # [vgen_intermediate_6](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate6/prompt3_ram.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a RAM module
 module ram #( parameter ADDR_WIDTH=6, parameter DATA_WIDTH=8) 
 (input [DATA_WIDTH-1:0] data, input [ADDR_WIDTH-1:0] addr, input we, clk, output [DATA_WIDTH-1:0] q);
@@ -11,7 +11,7 @@ reg [DATA_WIDTH-1:0] ram[2**ADDR_WIDTH-1:0];
 ```
 ## Reply
 Here is the completed Verilog module ram that implements the specified RAM functionality:
-```
+```verilog
 // This is a RAM module
 module ram #( 
     parameter ADDR_WIDTH = 6, 

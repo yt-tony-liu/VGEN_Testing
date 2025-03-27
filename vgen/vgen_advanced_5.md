@@ -1,7 +1,7 @@
 # [vgen_advanced_5](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/advanced5/prompt3_abro.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is an FSM 
 // It outputs 1 when 1 is received for signals a and b irrespetive of their order, either simultaneously or non-simultaneously.
 module abro( input clk, input reset,input a, input b, output z );
@@ -25,7 +25,7 @@ reg [1:0] cur_state,next_state;
 ```
 ## Reply
 Here is the completed Verilog module abro that implements the specified FSM:
-```
+```verilog
 // This is an FSM 
 // It outputs 1 when 1 is received for signals a and b irrespective of their order, either simultaneously or non-simultaneously.
 module abro(

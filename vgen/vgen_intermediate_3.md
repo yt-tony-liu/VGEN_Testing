@@ -1,7 +1,7 @@
 # [vgen_intermediate_3](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate3/prompt3_lfsr.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a 5-bit maximal-length Galois LFSR with taps at bit positions 5 and 3
 module lfsr( 
 input clk,
@@ -19,7 +19,7 @@ wire feedback_value;
 ```
 ## Reply
 Here is the completed Verilog module lfsr that implements a 5-bit maximal-length Galois LFSR with taps at bit positions 5 and 3:
-```
+```verilog
 // This is a 5-bit maximal-length Galois LFSR with taps at bit positions 5 and 3
 module lfsr( 
     input clk,

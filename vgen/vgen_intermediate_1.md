@@ -1,7 +1,7 @@
 # [vgen_intermediate_1](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate1/prompt2_half_adder.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a half adder.
 module half_adder( 
 input a, b,
@@ -10,7 +10,7 @@ output cout, sum );
 ```
 ## Reply
 Here is the completed Verilog module half_adder that implements a half adder:
-```
+```verilog
 // This is a half adder.
 module half_adder( 
     input a, b,

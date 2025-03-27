@@ -1,7 +1,7 @@
 # [vgen_intermediate_4](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate4/prompt2_simple-fsm.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a Moore state machine with two states 0 and 1, one input in, and one output out. 
 // Reset state is 0. Output is high in state 0. If in is low, state changes.
 module simple_fsm(input clk, input reset, input in, output out);
@@ -11,7 +11,7 @@ reg present_state, next_state;
 ```
 ## Reply
 Here is the completed Verilog module simple_fsm that implements the described Moore state machine:
-```
+```verilog
 // This is a Moore state machine with two states 0 and 1, one input in, and one output out. 
 // Reset state is 0. Output is high in state 0. If in is low, state changes.
 module simple_fsm(input clk, input reset, input in, output out);

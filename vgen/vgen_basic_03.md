@@ -1,7 +1,7 @@
 # [vgen_basic_03](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/basic3/prompt2_priority_encoder.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a 3-bit priority encoder. It outputs the position of the first high bit.
 module priority_encoder( 
 input [2:0] in,
@@ -11,7 +11,7 @@ output reg [1:0] pos );
 ```
 ## Reply
 Here is the completed Verilog module priority_encoder that implements a 3-bit priority encoder:
-```
+```verilog
 // This is a 3-bit priority encoder. It outputs the position of the first high bit.
 module priority_encoder( 
     input [2:0] in,

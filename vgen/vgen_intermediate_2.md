@@ -1,7 +1,7 @@
 # [vgen_intermediate_2](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate2/prompt3_counter.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a counter that counts from 1 to 12
 module counter( 
 input clk,
@@ -15,7 +15,7 @@ output reg [3:0] q
 ```
 ## Reply
 Here is the completed Verilog module counter that implements a counter counting from 1 to 12:
-```
+```verilog
 // This is a counter that counts from 1 to 12
 module counter( 
     input clk,

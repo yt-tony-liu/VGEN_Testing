@@ -1,7 +1,7 @@
 # [vgen_advanced_3](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/advanced3/prompt2_advfsm.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a finite state machine that recognizes the sequence 101 on the input signal x. 
 module adv_fsm(
 input clk,
@@ -20,7 +20,7 @@ parameter IDLE=0, S1=1, S10=2, S101=3;
 ```
 ## Reply
 Here is the completed Verilog module adv_fsm that implements the specified finite state machine:
-```
+```verilog
 // This is a finite state machine that recognizes the sequence 101 on the input signal x. 
 module adv_fsm(
     input clk,

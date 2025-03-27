@@ -1,7 +1,7 @@
 # [vgen_intermediate_5](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate5/prompt3_shift-left-rotate.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a shift left and rotate operation
 module left_rotate(input clk,input reset,input [2:0] amount,input [7:0] data,input load,output reg [7:0] out);
 // when load is high, load data to out
@@ -9,7 +9,7 @@ module left_rotate(input clk,input reset,input [2:0] amount,input [7:0] data,inp
 ```
 ## Reply
 Here is the completed Verilog module left_rotate that implements the shift left and rotate operation:
-```
+```verilog
 // This is a shift left and rotate operation
 module left_rotate(
     input clk,

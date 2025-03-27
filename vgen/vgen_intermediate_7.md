@@ -1,7 +1,7 @@
 # [vgen_intermediate_7](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate7/prompt3_permutation.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a permutation block module.
 module P_box ( input wire [31:0] In32, output reg [31:0] Out32 );
 localparam len_table = 32;
@@ -46,7 +46,7 @@ integer i;
 ```
 ## Reply
 Here is the completed Verilog module P_box that implements the permutation block according to the specification:
-```
+```verilog
 // This is a permutation block module.
 module P_box ( 
     input wire [31:0] In32, 

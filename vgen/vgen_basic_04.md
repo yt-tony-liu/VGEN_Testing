@@ -1,7 +1,7 @@
 # [vgen_basic_04](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/basic4/prompt3_mux.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a 2-to-1 multiplexer.
 module mux(
 input [4:0] a, b,
@@ -12,7 +12,7 @@ output [4:0] out );
 ```
 ## Reply
 Here is the completed Verilog module mux that implements a 2-to-1 multiplexer:
-```
+```verilog
 // This is a 2-to-1 multiplexer.
 module mux( 
     input [4:0] a, b,

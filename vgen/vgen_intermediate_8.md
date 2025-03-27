@@ -1,7 +1,7 @@
 # [vgen_intermediate_8](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/intermediate8/prompt2_truthtable.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a circuit synthesized from a truth table
 // The truth table is for a three-input, one-output function. It has 8 rows for each of the 8 possible input combinations, and one output column. 
 // There are four inputs combinations where the output is 1, and four where the output is 0.
@@ -19,7 +19,7 @@ module truthtable(input x3, input x2, input x1, output f );
 ```
 ## Reply
 Here is the completed Verilog module truthtable that implements the specified truth table:
-```
+```verilog
 // This is a circuit synthesized from a truth table
 // The truth table is for a three-input, one-output function. It has 8 rows for each of the 8 possible input combinations, and one output column. 
 // There are four inputs combinations where the output is 1, and four where the output is 0.

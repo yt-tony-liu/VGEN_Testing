@@ -1,7 +1,7 @@
 # [vgen_advanced_2](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/advanced2/prompt3_countslow.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a decade counter that counts from 0 through 9, inclusive. It counts only when slowena is high.
 module count_slow(input clk, input slowena, input reset, output reg [3:0] q);
 // On the positive edge of the clock:
@@ -10,7 +10,7 @@ module count_slow(input clk, input slowena, input reset, output reg [3:0] q);
 ```
 ## Reply
 Here is the completed Verilog module count_slow that implements the specified decade counter:
-```
+```verilog
 // This is a decade counter that counts from 0 through 9, inclusive. It counts only when slowena is high.
 module count_slow(
     input clk, 

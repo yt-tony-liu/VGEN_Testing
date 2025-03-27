@@ -1,7 +1,7 @@
 # [vgen_advanced_4](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/advanced4/prompt3_advshifter.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // Design a 64-bit arithmetic shift register, with synchronous load. 
 // When ena is high, the shifter can shift both left and right, and by 1 or 8 bit positions, selected by amount.
 module advshift(input clk,
@@ -20,7 +20,7 @@ output reg [63:0] q);
 ```
 ## Reply
 Here is the completed Verilog module advshift that implements the specified 64-bit arithmetic shift register:
-```
+```verilog
 // Design a 64-bit arithmetic shift register, with synchronous load. 
 // When ena is high, the shifter can shift both left and right, and by 1 or 8 bit positions, selected by amount.
 module advshift(

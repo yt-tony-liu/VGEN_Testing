@@ -1,7 +1,7 @@
 # [vgen_basic_02](https://github.com/shailja-thakur/VGen/blob/main/prompts-and-testbenches/basic2/prompt1_and_gate.v)
 ## Prompt
 please finish this module according to the specification
-```
+```verilog
 // This is a module that implements an AND gate
 module and_gate( 
 input a, 
@@ -10,7 +10,7 @@ output out );
 ```
 ## Reply
 Here is the completed Verilog module and_gate that implements an AND gate:
-```
+```verilog
 // This is a module that implements an AND gate
 module and_gate( 
     input a, 
